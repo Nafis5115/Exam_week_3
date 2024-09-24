@@ -39,5 +39,4 @@ class ProfileController extends Controller
         return response($data, 200)->cookie($cookie);
     }
 
-
 }
